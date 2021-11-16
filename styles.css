@@ -1,0 +1,46 @@
+body {
+	text-align: center;
+}
+
+table,
+td {
+	border: 1px solid;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	padding: 15px;
+}
+
+button {
+	transition: 0.1s;
+}
+
+.start-sim {
+	margin: 20px;
+	border: none;
+	color: white;
+	background-color: #1bae0e;
+}
+
+.start-sim:hover {
+	background-color: #91c38c;
+}
+
+.end-sim {
+	margin: 20px;
+	border: none;
+	color: white;
+	background-color: #df3b3b;
+}
+
+.end-sim:hover {
+	background-color: #dd8383;
+}
+
+.alive {
+	background: blue;
+	transition: 0.1s;
+}
